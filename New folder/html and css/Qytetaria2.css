@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.box{
+    margin-left: 300px ;
+    margin-top: 30px;
+    background-color: black;
+    width: 1300px;
+}
+
+body{
+    background-color: rgb(27, 25, 25);
+}
+
+p{
+    color: white;
+}
+
+.text{
+    font-family: "Lato", sans-serif;
+    font-size: 68px;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+.text2{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 300px;
+    position: absolute;
+    top: 180px;
+}
+
+.present{
+    position: absolute;
+    top: 300px;
+    width: 1300px;
+    height: auto;
+}
+
+.glow {
+    position: absolute;
+    width: 1315px;
+    height: 590px;
+    margin-top: 50px;
+    margin-left: 292px;
+    background-position: 200%;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(1, 100, 117), rgb(4, 0, 255), rgb(0, 0, 0), rgb(1, 13, 44)) 0% 0% / 200%;
+    animation: 3.0s linear 0s infinite normal none running animationGradient;
+}
+
+@keyframes animationGradient{
+    100% {
+        background-position: 200%;
+    }
+    
+    }
+
+.best{
+    position: absolute;
+    top: 1000px;
+}
+
+.text3{
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 530px;
+}
+
+.ese1{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ese2{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}   
+
+.ndotje{
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.uje{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 47%;
+    height: auto;
+}
+
+.fundi{
+    position: absolute;
+    top: 2500px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 700px;
+} 
+
+.copyright{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    width: 500px;
+    height: 30px;
+}
+
+.esefund{
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.blini{
+    position: absolute;
+    width: 140px;
+    height: 43px;
+    background-color: transparent;
+    color: white;
+    margin-left: 1700px;
+    margin-top: 197px;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: white;
+    transition: background-color 0.4s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.blini:hover{
+background-color: rgb(0, 110, 253);
+    color: white;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;  
+    box-shadow: 5px 1px 30px lightblue;
+    border-color: black;
+}
+
+@media (max-widht:2000){
+    
+}
